@@ -7,6 +7,8 @@ sales_file_path = './data/sales_data.csv'
 melbourne_data = pd.read_csv(melbourne_file_path)
 sales_data = pd.read_csv(sales_file_path)
 
+print(sales_data.Cost.idxmax())
+
 # print(melbourne_data.Suburb == 'Williamstown')
 # print(melbourne_data.iloc[1])
 # print(melbourne_data.loc[(melbourne_data['Price'] > 1000000)])
