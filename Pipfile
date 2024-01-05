@@ -10,6 +10,7 @@ scipy = "*"
 requests = "*"
 lxml = "*"
 html5lib = "*"
+seaborn = "*"
 
 [dev-packages]
 ipykernel = "*"
